@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# GeekLib Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GeekLib is an AI chatbot component designed and developed specifically for the GeekLib library system. It utilizes advanced technologies, including OpenAI's GPT-3.5-turbo, to provide users with an intuitive and interactive experience, helping them to quickly and easily find the information they need. 
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Easy-to-use interface
+- GPT-3.5-turbo integration for accurate and insightful responses
+- Retains conversation history even after page refresh
+- Modular design for easy customization and expansion
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To get started with GeekLib Chatbot, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:  
+  
+git clone https://github.com/yourusername/geeklib-chatbot.git  
 
-### `npm run build`
+2. Navigate to the project directory and install dependencies:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd geeklib-chatbot
+  npm install
+3. Create a `.env` file in the root of the project and add your OpenAI API key:  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+REACT_APP_OPENAI_API_KEY=your_api_key_here
+  
+ 
+4. Start the development server:  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+The application will now be running on `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open the application in your browser and start typing your questions or topics into the message input field. Press enter or click the send button to submit your message. The chatbot will respond with an answer or information based on the input.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions are welcome! If you'd like to contribute, follow these steps:
 
-## Learn More
+1. Fork the repository
+2. Create a new branch: `git checkout -b your-feature-branch`
+3. Commit your changes: `git commit -am 'Add a new feature'`
+4. Push to the branch: `git push origin your-feature-branch`
+5. Submit a pull request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+Made with ❤️ by Edison
+
+
