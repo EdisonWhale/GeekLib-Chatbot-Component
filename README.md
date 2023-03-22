@@ -32,7 +32,7 @@ cd geeklib-chatbot
 ```
 npm install
   ```
-3. Edit the `.env` file in the root of the project and add your OpenAI API key:  
+3. Edit the `constants.ts` file in the /src/Components of the project and add your OpenAI API key:  
 ```
 REACT_APP_OPENAI_API_KEY=your_api_key_here
 ```
