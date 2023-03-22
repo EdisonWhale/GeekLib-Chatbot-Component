@@ -1,6 +1,6 @@
-# GeekLib Chatbot
+# GeekLib AIChatbot
 
-GeekLib is an AI chatbot component designed and developed specifically for the GeekLib library system. It utilizes advanced technologies, including OpenAI's GPT-3.5-turbo, to provide users with an intuitive and interactive experience, helping them to quickly and easily find the information they need. The project is built using TypeScript and React, offering a robust and maintainable codebase, along with the latest best practices in web development. The user interface is designed with responsive and modern design principles, ensuring a smooth and visually appealing experience across various devices and screen sizes. The component structure enables easy integration and customization, making it a valuable addition to any library system seeking to enhance user engagement and satisfaction through cutting-edge AI technology.
+GeekLib AIChatbot is an AI chatbot component designed and developed specifically for the GeekLib library system. It utilizes advanced technologies, including OpenAI's GPT-3.5-turbo, to provide users with an intuitive and interactive experience, helping them to quickly and easily find the information they need. The project is built using TypeScript and React, offering a robust and maintainable codebase, along with the latest best practices in web development. The user interface is designed with responsive and modern design principles, ensuring a smooth and visually appealing experience across various devices and screen sizes. The component structure enables easy integration and customization, making it a valuable addition to any library system seeking to enhance user engagement and satisfaction through cutting-edge AI technology.
 
 ## Table of Contents
 
