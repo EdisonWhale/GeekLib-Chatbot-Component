@@ -9,13 +9,14 @@ import {
 } from '@chatscope/chat-ui-kit-react';
 import MessageComponent from './MessageComponent';
 import { MessageObj, API_KEY, systemMessage } from './constants';
+import './buttonStyles.css';
 
 function Chat() {
     const [messages, setMessages] = useState<MessageObj[]>(() => {
       const savedMessages = localStorage.getItem('chatMessages');
       return savedMessages ? JSON.parse(savedMessages) : [
         {
-          content: "Hello, I'm ChatGPT! Ask me anything!",
+          content: "Hello, I'm GeekLib AIChatbot! Ask me anything!!",
           sentTime: 'just now',
           sender: 'ChatGPT',
         },
@@ -82,7 +83,17 @@ function Chat() {
           setIsTyping(false);
         });
     }
+    const resetConversation = () => {
+      setMessages([
+        {
+          content: "Hello, I'm GeekLib AIChatbot! Ask me anything!",
+          sentTime: 'just now',
+          sender: 'ChatGPT',
+        },
+      ]);
+    };
 
+    
   return (
     <div
       style={{
@@ -90,17 +101,20 @@ function Chat() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '100vh',
+        height: '120vh',
       }}
     >
-      <h1 className="title">GeekLib Chatbot</h1>
+      <h1 className="title">GeekLib AIChatbot</h1>
+      <button onClick={resetConversation} className="button-51">
+        Reset Conversation
+      </button>
       <div style={{ position: 'relative', height: '800px', width: '700px' }}>
         <MainContainer>
           <ChatContainer>
             <MessageList
               scrollBehavior="smooth"
               typingIndicator={
-                isTyping ? <TypingIndicator content="ChatGPT is typing" /> : null
+                isTyping ? <TypingIndicator content="GeekLib is typing" /> : null
               }
             >
               {messages.map((message, i) => (
