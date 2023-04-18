@@ -63,7 +63,7 @@ Contributions are welcome! If you'd like to contribute, follow these steps:
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 Made with ❤️ by Edison
-
+www.Edisonwhale.com
 Have any question?  
 Email me!  
 Edison@gatech.edu
